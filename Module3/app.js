@@ -1,6 +1,6 @@
 const Koa = require ('koa');
 const app = new Koa ();
-app.use(async ctx => ctx.body = 'I like seaman"s wine')
+app.use(async ctx => ctx.body = 'Trying to send a pull request')
 app.listen(3000, () => console.log('Server started...'));
 
 //localhost 2.0
